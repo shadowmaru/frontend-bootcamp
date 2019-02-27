@@ -87,9 +87,9 @@ In CSS based styling, visual states are applied by adding and removing classes. 
 
 ```jsx
 <nav className="filter">
-  <button className={filter == 'all' ? 'selected' : ''}>all</button>
-  <button className={filter == 'active' ? 'selected' : ''}>active</button>
-  <button className={filter == 'completed' ? 'selected' : ''}>completed</button>
+  <button className={filter === 'all' ? 'selected' : ''}>all</button>
+  <button className={filter === 'active' ? 'selected' : ''}>active</button>
+  <button className={filter === 'completed' ? 'selected' : ''}>completed</button>
 </nav>
 ```
 
